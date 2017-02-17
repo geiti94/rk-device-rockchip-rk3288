@@ -64,6 +64,10 @@ TARGET_BOARD_PLATFORM_PRODUCT ?= tablet
 endif
 endif
 #######for target product ########
+
+#wifi-only
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.carrier=wifi-only
 ifeq ($(strip $(TARGET_BOARD_PLATFORM_PRODUCT)), box)
 DEVICE_PACKAGE_OVERLAYS += device/rockchip/rk3288/overlay_screenoff
 
