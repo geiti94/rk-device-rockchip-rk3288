@@ -43,5 +43,5 @@ wifi.supplicant_scan_interval=15
 ro.factory.tool=0
 ro.kernel.android.checkjni=0
 #set default lcd density to Rockchip tablet
-ro.sf.lcd_density=320
+ro.sf.lcd_density=240
 ro.adb.secure=0
