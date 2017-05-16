@@ -82,3 +82,5 @@ else
   endif
 endif
 
+BOARD_HAVE_BLUETOOTH_RTK := true
+BOARD_HAVE_BLUETOOTH_RTK_COEX := true
