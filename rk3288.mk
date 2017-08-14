@@ -17,6 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 include device/rockchip/rk3288/BoardConfig.mk
 $(call inherit-product, device/rockchip/rk3288/device.mk)
 $(call inherit-product, device/rockchip/common/device.mk)
+include device/asus/logtool/logtool.mk
 
 PRODUCT_CHARACTERISTICS := tablet
 
