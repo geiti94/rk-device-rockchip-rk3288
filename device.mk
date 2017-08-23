@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
 else
   PRODUCT_COPY_FILES += \
     device/rockchip/rk3288/fstab.rk30board.bootmode.unknown:root/fstab.rk30board.bootmode.unknown \
+    device/rockchip/rk3288/fstab.rk30board.bootmode.sd:root/fstab.rk30board.bootmode.sd \
     device/rockchip/rk3288/fstab.rk30board.bootmode.emmc:root/fstab.rk30board.bootmode.emmc
 endif
 
