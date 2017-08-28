@@ -34,3 +34,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.version = 1.0.0 \
     ro.product.ota.host = www.rockchip.com:2300
 
+#Keep the zoom setting when reboot
+PRODUCT_COPY_FILES += device/rockchip/rk3288/zoomsetting.sh:/system/etc/zoomsetting.sh
+
