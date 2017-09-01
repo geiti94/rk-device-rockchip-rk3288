@@ -22,4 +22,4 @@
 /devices/ff540000.usb*     auto vfat defaults      voldmanaged=usb:auto
 /devices/ff5c0000.usb*     auto vfat defaults      voldmanaged=usb:auto
 
-/dev/block/zram0                                none                swap      defaults                                              zramsize=533413200
+/dev/block/zram0                                none                swap      defaults                                              zramsize=268435456
