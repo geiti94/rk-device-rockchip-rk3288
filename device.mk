@@ -49,6 +49,9 @@ endif
 PRODUCT_COPY_FILES += \
     device/rockchip/rk3288/touch/fts_ts.idc:system/usr/idc/fts_ts.idc
 
+PRODUCT_COPY_FILES += \
+    device/rockchip/rk3288/init.asus.rc:root/init.asus.rc
+
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
