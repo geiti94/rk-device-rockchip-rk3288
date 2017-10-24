@@ -36,4 +36,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #Keep the zoom setting when reboot
 PRODUCT_COPY_FILES += device/rockchip/rk3288/zoomsetting.sh:/system/etc/zoomsetting.sh
+PRODUCT_COPY_FILES += device/rockchip/rk3288/jack_auto_switch.sh:/system/bin/jack_auto_switch.sh
+PRODUCT_COPY_FILES += device/rockchip/rk3288/audio.conf:/system/etc/audio.conf
 
