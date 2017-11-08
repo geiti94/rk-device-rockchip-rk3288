@@ -3,7 +3,7 @@ ARCH=arm
 LUNCH=rk3288-userdebug
 UBOOT_DEFCONFIG=rk3288_secure_defconfig
 KERNEL_DEFCONFIG=rockchip_defconfig
-KERNEL_DTS=rk3288-evb-android-rk818-edp
+KERNEL_DTS=rk3288-evb-rk808
 JOBS=12
 
 usage()
