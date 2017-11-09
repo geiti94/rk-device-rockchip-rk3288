@@ -61,6 +61,8 @@ PRODUCT_COPY_FILES += \
 	device/rockchip/common/init.optee_verify.rc:root/init.optee.rc \
 	device/rockchip/rk3288/fstab.rk30board.forceencrypt.bootmode.unknown.rk3288:root/fstab.rk30board.bootmode.unknown.rk3288 \
 	device/rockchip/rk3288/fstab.rk30board.forceencrypt.bootmode.unknown.rk3288w:root/fstab.rk30board.bootmode.unknown.rk3288w \
+	device/rockchip/rk3288/fstab.rk30board.forceencrypt.bootmode.sd.rk3288:root/fstab.rk30board.bootmode.sd.rk3288 \
+        device/rockchip/rk3288/fstab.rk30board.forceencrypt.bootmode.sd.rk3288w:root/fstab.rk30board.bootmode.sd.rk3288w \
 	device/rockchip/rk3288/fstab.rk30board.forceencrypt.bootmode.emmc.rk3288:root/fstab.rk30board.bootmode.emmc.rk3288 \
 	device/rockchip/rk3288/fstab.rk30board.forceencrypt.bootmode.emmc.rk3288w:root/fstab.rk30board.bootmode.emmc.rk3288w
 
@@ -69,6 +71,8 @@ PRODUCT_COPY_FILES += \
 	device/rockchip/common/init.optee.rc:root/init.optee.rc \
 	device/rockchip/rk3288/fstab.rk30board.bootmode.unknown.rk3288:root/fstab.rk30board.bootmode.unknown.rk3288 \
 	device/rockchip/rk3288/fstab.rk30board.bootmode.unknown.rk3288w:root/fstab.rk30board.bootmode.unknown.rk3288w \
+	device/rockchip/rk3288/fstab.rk30board.bootmode.sd.rk3288:root/fstab.rk30board.bootmode.sd.rk3288 \
+        device/rockchip/rk3288/fstab.rk30board.bootmode.sd.rk3288w:root/fstab.rk30board.bootmode.sd.rk3288w \
 	device/rockchip/rk3288/fstab.rk30board.bootmode.emmc.rk3288:root/fstab.rk30board.bootmode.emmc.rk3288 \
 	device/rockchip/rk3288/fstab.rk30board.bootmode.emmc.rk3288w:root/fstab.rk30board.bootmode.emmc.rk3288w
 endif
