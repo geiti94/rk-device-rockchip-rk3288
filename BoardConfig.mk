@@ -48,9 +48,11 @@ else
 TARGET_BOARD_PLATFORM_PRODUCT ?= tablet
 endif
 endif
+
+DEVICE_PACKAGE_OVERLAYS += device/rockchip/rk3288/overlay_screenoff
+
 #######for target product ########
 ifeq ($(strip $(TARGET_BOARD_PLATFORM_PRODUCT)), box)
-DEVICE_PACKAGE_OVERLAYS += device/rockchip/rk3288/overlay_screenoff
 
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.target.product=box
