@@ -45,3 +45,5 @@ ro.kernel.android.checkjni=0
 ro.sf.lcd_density=320
 ro.adb.secure=0
 ro.rk.displayd.enable=false
+# Set internet adb default on
+persist.internet.adb.enable=1
