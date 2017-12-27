@@ -33,3 +33,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.version = 1.0.0 \
     ro.product.ota.host = www.rockchip.com:2300
 
+# audio jack auto switch function
+PRODUCT_COPY_FILES += device/rockchip/rk3288/jack_auto_switch.sh:/system/bin/jack_auto_switch.sh
+PRODUCT_COPY_FILES += device/rockchip/rk3288/audio.conf:/system/etc/audio.conf
