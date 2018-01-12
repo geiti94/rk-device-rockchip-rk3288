@@ -77,6 +77,9 @@ PRODUCT_COPY_FILES += \
 	device/rockchip/rk3288/fstab.rk30board.bootmode.emmc.rk3288w:root/fstab.rk30board.bootmode.emmc.rk3288w
 endif
 
+# Touch
+PRODUCT_COPY_FILES += \
+	device/rockchip/rk3288/touch/fts_ts.idc:system/usr/idc/fts_ts.idc
 
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
