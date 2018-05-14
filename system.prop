@@ -48,3 +48,5 @@ ro.rk.displayd.enable=false
 # Set internet adb default on
 persist.internet.adb.enable=1
 persist.audio.output=0
+# Set single HDMI primary
+sys.hwc.device.primary=HDMI-A
