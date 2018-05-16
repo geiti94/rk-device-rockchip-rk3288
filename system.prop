@@ -50,3 +50,5 @@ persist.internet.adb.enable=1
 persist.audio.output=0
 # Set single HDMI primary
 sys.hwc.device.primary=HDMI-A
+# Set the framebuffer size to keep 1920x1080
+persist.sys.framebuffer.main=1920x1080
