@@ -48,7 +48,8 @@ ro.rk.displayd.enable=false
 # Set internet adb default on
 persist.internet.adb.enable=1
 persist.audio.output=0
-# Set single HDMI primary
+# Set primary:HDMI extend:DSI
 sys.hwc.device.primary=HDMI-A
+sys.hwc.device.extend=DSI
 # Set the framebuffer size to keep 1920x1080
-persist.sys.framebuffer.main=1920x1080
+persist.sys.framebuffer.main=1280x720
