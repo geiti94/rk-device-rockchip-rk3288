@@ -53,3 +53,5 @@ sys.hwc.device.primary=HDMI-A
 sys.hwc.device.extend=DSI
 # Set the framebuffer size to keep 1920x1080
 persist.sys.framebuffer.main=1920x1080
+# Enable HDMI CEC
+persist.sys.hdmi.cec_enable=true
